@@ -1,0 +1,26 @@
+# VS Code
+.vscode/
+
+# Data files
+*.json
+backend/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Backend
+backend/.env
+backend/.env.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local

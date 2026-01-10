@@ -1,0 +1,11 @@
+[project]
+name = "vector-database"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb",
+    "fastapi>=0.128.0",
+    "sentence-transformers>=5.2.0",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.40.0",
+]
