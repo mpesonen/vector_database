@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - CORS_ORIGINS=http://localhost,http://localhost:80,http://frontend
+      - CORS_ORIGINS=http://localhost,http://localhost:80,http://127.0.0.1,http://127.0.0.1:80,http://frontend
     volumes:
       - chroma_data:/app/chroma_db
     restart: unless-stopped
