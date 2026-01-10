@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (embeddings should be generated on server)
+*.json
+backend/chroma_db/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Frontend (handled by frontend's own Dockerfile)
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+docker-compose*.yml
+Dockerfile
