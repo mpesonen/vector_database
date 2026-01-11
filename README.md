@@ -10,6 +10,8 @@ A semantic search demo for arXiv research papers using vector embeddings. Search
 - **Package Management**: uv (Python), Bun (JavaScript)
 - **Deployment**: Docker Compose
 
+<img width="1628" height="1109" alt="arxiv_search_screenshot" src="https://github.com/user-attachments/assets/70787dfe-d2e2-4376-8e9c-94b30252aafe" />
+
 ## Quick Start (Local)
 
 ```bash
