@@ -1,0 +1,20 @@
+{
+  "id": "supr-con/9609004",
+  "submitter": "Masanori Ichioka",
+  "authors": "Naoki Enomoto, Masanori Ichioka and Kazushige Machida (Okayama Univ.)",
+  "title": "Ginzburg Landau theory for d-wave pairing and fourfold symmetric vortex\n  core structure",
+  "comments": "12 pages including 8 eps figs, LaTeX with jpsj.sty & epsfig",
+  "journal-ref": "J. Phys. Soc. Jpn. 66, 204 (1997).",
+  "doi": "10.1143/JPSJ.66.204",
+  "report-no": null,
+  "categories": "supr-con cond-mat.supr-con",
+  "license": null,
+  "abstract": "  The Ginzburg Landau theory for d_{x^2-y^2}-wave superconductors is\nconstructed, by starting from the Gor'kov equation with including correction\nterms up to the next order of ln(T_c/T). Some of the non-local correction terms\nare found to break the cylindrical symmetry and lead to the fourfold symmetric\ncore structure, reflecting the internal degree of freedom in the pair\npotential. Using this extended Ginzburg Landau theory, we investigate the\nfourfold symmetric structure of the pair potential, current and magnetic field\naround an isolated single vortex, and clarify concretely how the vortex core\nstructure deviates from the cylindrical symmetry in the d_{x^2-y^2}-wave\nsuperconductors.\n",
+  "versions": [{ "version": "v1", "created": "Wed, 25 Sep 1996 14:17:09 GMT" }],
+  "update_date": "2009-10-30",
+  "authors_parsed": [
+    ["Enomoto", "Naoki", "", "Okayama Univ."],
+    ["Ichioka", "Masanori", "", "Okayama Univ."],
+    ["Machida", "Kazushige", "", "Okayama Univ."]
+  ]
+}
