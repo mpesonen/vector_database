@@ -6,6 +6,8 @@ import chromadb
 from chromadb.utils import embedding_functions
 from tqdm import tqdm
 
+MODEL_NAME = "all-MiniLM-L6-v2"
+
 # Paths relative to this script's location
 _script_dir = os.path.dirname(os.path.abspath(__file__))
 _project_root = os.path.dirname(_script_dir)
@@ -95,8 +97,9 @@ Examples:
 
     # Always show usage summary
     print("arXiv Embeddings Generator")
+    print(f"Using model {MODEL_NAME}")
     print(f"  --limit: {args.limit if args.limit > 0 else 'all'}")
-    print(f"  --year:  {args.year if args.year else 'any'}")
+    print(f"  --year: {args.year if args.year else 'any'}")
     print(f"  --clean: {args.clean}")
     print()
 
@@ -105,7 +108,7 @@ Examples:
 
     # Set up embedding function
     embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name="BAAI/bge-small-en-v1.5"
+        model_name=MODEL_NAME
     )
 
     # Clean existing collection if requested

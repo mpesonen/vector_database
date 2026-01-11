@@ -8,7 +8,7 @@ services:
     environment:
       - CORS_ORIGINS=http://localhost,http://localhost:80,http://127.0.0.1,http://127.0.0.1:80,http://frontend
     volumes:
-      - chroma_data:/app/chroma_db
+      - ./backend/chroma_db:/app/chroma_db
     restart: unless-stopped
 
   frontend:
@@ -23,5 +23,3 @@ services:
       - backend
     restart: unless-stopped
 
-volumes:
-  chroma_data:

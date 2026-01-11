@@ -6,6 +6,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+MODEL_NAME = "all-MiniLM-L6-v2"
+
 app = FastAPI(title="arXiv Papers Search API")
 
 # CORS origins - comma-separated list, defaults to localhost for development
@@ -24,7 +26,7 @@ app.add_middleware(
 _db_path = os.path.join(os.path.dirname(__file__), "chroma_db")
 client = chromadb.PersistentClient(path=_db_path)
 embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name="BAAI/bge-small-en-v1.5"
+    model_name=MODEL_NAME
 )
 collection = client.get_or_create_collection(
     name="arxiv_papers",
