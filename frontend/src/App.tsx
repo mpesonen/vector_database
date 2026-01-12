@@ -67,7 +67,7 @@ function App() {
       <div className="hero">
         <h1>arXiv Paper Search</h1>
         <p className="subtitle">
-          Semantic search across <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">arXiv</a> research papers (2016&ndash;present)
+          Semantic search across <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">arXiv</a> research papers (2021&ndash;present)
         </p>
         <p className="tech-stack">
           <a href="https://www.trychroma.com/" target="_blank" rel="noopener noreferrer">ChromaDB</a>
@@ -75,6 +75,10 @@ function App() {
           <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>
           {' + '}
           <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>
+          {' + '}
+          <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">AWS</a>
+          {' + '}
+          <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a>
         </p>
 
         <div className="search-container">

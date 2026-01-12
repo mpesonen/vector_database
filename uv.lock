@@ -2463,7 +2463,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "chromadb" },
+    { name = "chromadb", specifier = "==1.4.0" },
     { name = "fastapi", specifier = ">=0.128.0" },
     { name = "sentence-transformers", specifier = ">=5.2.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
